@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Palindrome Checker Application</title>
+    <title>Palindrome Checker</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="container">
         <h1>Palindrome Checker</h1>
-        <input type="text" id="inputText" placeholder="Enter a Word">
+        <input type="text" id="inputText" placeholder="Enter a word..." oninput="liveCheck()">
         <button id="checkButton">Check</button>
-        <div id="result">Result</div>
-
+        <div id="result">Result will appear here</div>
     </div>
-    
+
     <script src="script.js"></script>
 </body>
 </html>
